@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: open Sans,sans-serif;
+}
+section{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    padding: 100px;
+    background-image: url("img/backgroundp.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-size: cover;
+}
+ 
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+
+}
+header .navegation li{
+    list-style: none;
+}
+header .navegation li a{
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left:100px;
+}
+
+ .container-selecao{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows:200px;
+    padding: 5px;
+    grid-gap:10px;
+} 
+ .selecao{
+    position: relative;
+    bottom: -250px;
+    left: -230px;
+    border: 2px solid rgb(43, 234, 252);
+}
+ .selecao .fotos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+ .selecao .nome-foto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    font-size: 16px; 
+    
+}
+.champions{
+    font-size: 50px;
+    position: relative;
+    color: aliceblue;
+    bottom: 400px;
+    left: 640px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
